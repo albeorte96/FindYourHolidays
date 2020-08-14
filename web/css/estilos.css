@@ -1,0 +1,170 @@
+*{margin: 0;padding: 0;}
+
+@font-face {
+	font-family: Poetsen;
+	src: url(fuentes/PoetsenOne-Regular.ttf)
+}
+
+@font-face {
+	font-family: Averia;
+	src: url(fuentes/Averia-Gruesa.ttf)
+}
+
+.title{
+	font-family: Poetsen;
+	text-decoration: none;
+	font-size: 2em;
+	text-shadow: 2px 2px black;
+}
+
+.title:hover{
+	font-family: Poetsen;
+	text-decoration: none;
+	font-size: 2em;
+	text-shadow: 2px 2px black;
+}
+
+.subtitle{
+	font-family: Poetsen;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+body{
+	background-image: url("imagenes/fondo4.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: cover;
+}
+
+.description{font-size: 1.1em;}
+
+.categories{margin: 0 auto;width: 40%;}
+
+.question{
+	font-family: Averia;
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+.icono{width: 2em;}
+
+.opciones{width: 14em;height: 8em;}
+
+.opciones:hover{
+	width: 13.8em;
+	height: 7.8em;
+	border: 2px solid #8213CF;
+	box-shadow: 6px 6px 3px 0px rgba(0,0,0,0.60);
+}
+
+.cruces{
+	text-align: right;
+	text-decoration: none;
+	color: black;
+}
+
+.cruces:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.preferencias{text-align: center;}
+
+.espacio-sup{padding-top: 8em;opacity: 0.8;}
+
+.showcase .showcase-text{padding:2rem;}
+
+.imagenDestino{padding-top:0;padding-bottom: 0;min-height: 20rem;}
+
+.showcase .showcase-img{min-height:15rem;background-size:cover;}
+
+.navbar{background-color: rgb(56, 43, 43);}
+
+#listaResultados{text-shadow: 1px 2px #999;}
+
+hr{
+	height:2px;
+	border-width:0;
+	color:gray;
+	background-color:gray
+}
+@media (min-width:768px){
+	.showcase .showcase-text{padding:7rem}
+	
+	.navbar{background-color: rgba(0,0,0, 0.3);}
+
+	.imagenDestino{padding-top: 7rem;}
+
+	hr{width: 0;height: 0;}
+}
+
+#video_background {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1000;
+	overflow: hidden;
+}
+
+#video_pattern {
+	background:#fff;
+	position: fixed;
+	opacity: 0.8;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.team-member {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.team-member img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.team-member h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.page-section {padding: 6rem 0;}
+
+.page-section h2.section-heading {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.text-muted {color: #6c757d;}
+
+.page-section h3.section-subheading {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Droid Serif";
+  margin-bottom: 4rem;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#contact{
+  background-color: #212529;
+  background-image: url("../../imagenes/mapa.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title-contact{color: #fff;}
+
